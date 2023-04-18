@@ -7,6 +7,7 @@ import {
   TbDownload,
 } from "react-icons/tb";
 import { BlockPicker } from "react-color";
+import Head from "next/head";
 
 const pacifico = Pacifico({ subsets: ["latin"], weight: "400" });
 
@@ -80,6 +81,39 @@ export default function Home() {
 
   return (
     <div className="w-full min-h-screen bg-slate-100 flex flex-col justify-between items-center">
+      <Head>
+        <title>qrNexus - Free Simple QR Code Genarator</title>
+        <meta name="description" content="Free Simple QR Code Genarator" />
+        <meta property="og:url" content="https://qr-nexus.vercel.app/" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="qrNexus - Free Simple QR Code Genarator"
+        />
+        <meta
+          property="og:description"
+          content="Free Simple QR Code Genarator"
+        />
+        <meta
+          property="og:image"
+          content="https://qr-nexus.vercel.app/qrcode.png"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="qr-nexus.vercel.app" />
+        <meta property="twitter:url" content="https://qr-nexus.vercel.app/" />
+        <meta
+          name="twitter:title"
+          content="qrNexus - Free Simple QR Code Genarator"
+        />
+        <meta
+          name="twitter:description"
+          content="Free Simple QR Code Genarator"
+        />
+        <meta
+          name="twitter:image"
+          content="https://qr-nexus.vercel.app/qrcode.png"
+        />
+      </Head>
       <div className="navbar bg-white">
         <a className="normal-case text-xl">qrNexus</a>
       </div>
