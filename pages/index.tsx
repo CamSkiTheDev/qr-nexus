@@ -82,17 +82,17 @@ export default function Home() {
   return (
     <div className="w-full min-h-screen bg-slate-100 flex flex-col justify-between items-center">
       <Head>
-        <title>qrNexus - Free Simple QR Code Genarator</title>
-        <meta name="description" content="Free Simple QR Code Genarator" />
+        <title>qrNexus - Free Simple QR Code Generator</title>
+        <meta name="description" content="Free Simple QR Code Generator" />
         <meta property="og:url" content="https://qr-nexus.vercel.app/" />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="qrNexus - Free Simple QR Code Genarator"
+          content="qrNexus - Free Simple QR Code Generator"
         />
         <meta
           property="og:description"
-          content="Free Simple QR Code Genarator"
+          content="Free Simple QR Code Generator"
         />
         <meta
           property="og:image"
@@ -103,11 +103,11 @@ export default function Home() {
         <meta property="twitter:url" content="https://qr-nexus.vercel.app/" />
         <meta
           name="twitter:title"
-          content="qrNexus - Free Simple QR Code Genarator"
+          content="qrNexus - Free Simple QR Code Generator"
         />
         <meta
           name="twitter:description"
-          content="Free Simple QR Code Genarator"
+          content="Free Simple QR Code Generator"
         />
         <meta
           name="twitter:image"
